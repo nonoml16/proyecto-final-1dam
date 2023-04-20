@@ -25,7 +25,9 @@ public class Entrada {
 	
 	private int fila, asiento;
 	
+	/*
 	@ManyToOne
 	@JoinColumn(foreignKey = @ForeignKey(name = "fk_entrada_propietario"))
 	private Propietario propietario;
+	*/
 }

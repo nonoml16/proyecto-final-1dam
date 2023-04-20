@@ -29,11 +29,13 @@ public class Propietario {
 	private String nombre, apellidos;
 	private LocalDate fechaAlta;
 	
+	/*
 	@OneToMany(mappedBy = "propietario", fetch = FetchType.EAGER)
 	@Builder.Default
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Entrada> entradas = new ArrayList<>();
+	
 	
 	@OneToMany(mappedBy = "propietario", fetch = FetchType.EAGER)
 	@Builder.Default
@@ -41,9 +43,12 @@ public class Propietario {
 	@EqualsAndHashCode.Exclude
 	private List<Silla> sillas = new ArrayList<>();
 	
+	
+	
 	@OneToMany(mappedBy = "propietario", fetch = FetchType.EAGER)
 	@Builder.Default
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Palco> palcos = new ArrayList<>();
+	*/
 }

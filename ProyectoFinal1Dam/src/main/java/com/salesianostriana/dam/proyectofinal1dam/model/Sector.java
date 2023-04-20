@@ -3,6 +3,7 @@ package com.salesianostriana.dam.proyectofinal1dam.model;
 import java.util.List;
 import java.util.ArrayList;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -29,16 +30,19 @@ public class Sector {
 	
 	private String localizacion;
 	private float precio;
-	
-	@OneToMany(mappedBy = "sector", fetch = FetchType.EAGER)
+	/*
+	@OneToMany(mappedBy = "sector", fetch = FetchType.EAGER,
+			cascade = CascadeType.ALL, orphanRemoval = true)
 	@Builder.Default
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Silla> sillas = new ArrayList<>();
 	
-	@OneToMany(mappedBy = "sector", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "sector", fetch = FetchType.EAGER,
+			cascade = CascadeType.ALL, orphanRemoval = true)
 	@Builder.Default
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Palco> palcos = new ArrayList<>();
+	*/
 }
