@@ -30,7 +30,7 @@ public class Sector {
 	
 	private String localizacion;
 	private float precio;
-	/*
+	
 	@OneToMany(mappedBy = "sector", fetch = FetchType.EAGER,
 			cascade = CascadeType.ALL, orphanRemoval = true)
 	@Builder.Default
@@ -44,5 +44,5 @@ public class Sector {
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Palco> palcos = new ArrayList<>();
-	*/
+	
 }

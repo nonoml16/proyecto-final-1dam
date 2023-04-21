@@ -29,7 +29,7 @@ public class Propietario {
 	private String nombre, apellidos;
 	private LocalDate fechaAlta;
 	
-	/*
+
 	@OneToMany(mappedBy = "propietario", fetch = FetchType.EAGER)
 	@Builder.Default
 	@ToString.Exclude
@@ -50,5 +50,5 @@ public class Propietario {
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Palco> palcos = new ArrayList<>();
-	*/
+	
 }

@@ -30,11 +30,11 @@ public class Zona {
 	private String nombre;
 	private float precio;
 	
-	/*
+	
 	@OneToMany(mappedBy = "zona", fetch = FetchType.EAGER)
 	@Builder.Default
 	@ToString.Exclude
 	@EqualsAndHashCode.Exclude
 	private List<Entrada> entradas = new ArrayList<>();
-	*/
+	
 }

@@ -25,9 +25,9 @@ public class Palco {
 	
 	private int fila, numPalco;
 	
-	/*
+	
 	@ManyToOne
 	@JoinColumn(foreignKey = @ForeignKey(name = "fk_palco_propietario"))
 	private Propietario propietario;
-	*/
+	
 }
